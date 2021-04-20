@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.cart-container{
+    width: 30%;
+    height: fit-content;
+    border: 1px solid lightgray;
+    margin: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFF0F5;
+}
+
+.sub-total-container{
+    margin: 0.5rem;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bold;
+    color: #B12704;
+
+}
+
+.view-cart-btn-container{
+    margin: 1rem;
+}
+
+.view-cart-btn{
+    border: none;
+    background-color: lightgray;
+    height: 2rem;
+    width: 125px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.view-cart-btn:hover{
+    background-color: #3D464D;
+    color: white;
+    
+}
+
+
+.cart-title{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+
+.cart{
+    margin-top: 0.1rem;
+    cursor: pointer;
+    width: 100%;
+}
+.remove-cart-btn{
+    font-size: 1.2rem;
+    text-align: right;
+    color: grey;
+}
+
+.remove-cart-btn:hover{
+    color: crimson;
+}
+
+.cart-item-image{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.cart-item-title{
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.cart-list-item{
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.cart-item-price{
+    font-family: 'Roboto';
+    font-size: 12px;
+    margin-top: 0.1rem;
+    color: #B12704;
+    font-weight: bold
+}

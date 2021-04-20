@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    background-color: #EFF0F5;
+}
+
+.product-card{
+    height: 22rem;
+    width: 12rem;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    margin: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.product-image{
+    width: 12rem;
+    height: 12rem;
+    margin-top: 1rem;
+    
+}
+
+.product-info{
+    margin-top: 0.5rem;
+}
+
+.product-price{
+    color: orangered;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.in-stock{
+    color: green;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+.outof-stock{
+    color: crimson;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 11px;
+}
+
+.product-moreinfo{
+    margin-top: 0.8rem;
+}
+
+.moreinfo-btn{
+    border: none;
+    height: 2rem;
+    width: 7rem;
+    background-color: #47991F;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.moreinfo-btn:hover{
+    background-color: #3D464D;
+}
+
+/************************* Filter Products *****************************************************/
+
+.filter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+    height: 2rem;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+}
+
+.sort-by{
+    font-family: 'Roboto';
+    font-size: 13px;
+}
+
+.select-box{
+    height: 1.8rem;
+    width: 5.5rem;
+    padding-left: 5px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    letter-spacing: 0.5px;
+}
+
+/************************** Modal ***********************************/
+
+.closemodal-btn{
+    border: none;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: gray;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    background: none;
+}
+
+.modal-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-modal-info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 40%;
+    justify-content: center;
+    padding: 15px;
+}
+
+.product-modal-img{
+    width: 24rem;
+    height: 25rem;
+}
+
+.product-modal-title{
+    font-size: 1.5rem;
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+.product-modal-price{
+    font-size: 1.8rem;
+    color: #F57224;
+
+}
+
+.product-modal-desc{
+    font-size: 13px;
+    text-align: justify;
+    margin-top: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2rem;
+
+}
+
+/******************************Options ***********************************/
+
+.product-modal-options{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.product-option-price{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 1rem;
+
+}
+
+.product-option-outof-stock{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-family: 'Roboto';
+    color: crimson;
+    font-weight: bold;
+}
+
+.product-option-in-stock{
+    font-size: 1.1rem;
+    color: green;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.atc-container{
+    margin: 1rem;
+}
+
+.addtocart-btn{
+    width: 150px;
+    height: 2.5rem;
+    border: none;
+    background-color: #47991F;
+    color: white;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.addtocart-btn:hover{
+    background-color: #3D464D;
+}
